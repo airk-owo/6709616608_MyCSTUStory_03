@@ -14,6 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0%;
+    font-size: 12px;
 }
 
 p {
@@ -27,6 +28,7 @@ h1 {
     text-align: center;
     color: rgb(255, 255, 255);
     font-weight: 100;
+    font-size: 50px;
     margin: 0%;
 }
 
@@ -48,6 +50,7 @@ h3 {
 
 h4 {
     color: #ff924a;
+    font-size: 20px;
     margin: 0%;
     font-family: "Barlow Condensed", sans-serif;
 }
@@ -70,28 +73,35 @@ main {
 }
 
 header {
-    padding: 30px 0px;
+    padding: 20px 0px;
     background-color: rgba(6, 24, 80, 0.747);
     font-family: "Rubik Bubbles", system-ui;
-    font-size: xx-large;
 }
 
 #my-info-section {
     background-color: rgba(255, 255, 255, 0.308);
-    display: flex;
+    margin: 20px auto;
+    padding: 5px 5px 5px 5px;
     width: 90%;
 }
 
 .about-me-section {
     border: dashed 3px rgb(188, 154, 216);
     background-color:rgba(159, 201, 241, 0.685);
-    margin: 10px;
-    flex: 1;
+    margin: 5px;
+    padding: 10px;
+}
+
+.my-activity-section {
+    border: dashed 3px rgb(188, 154, 216);
+    background-color:rgba(159, 201, 241, 0.685);
+    margin: 5px;
+    padding: 10px;
 }
 
 #mypic {
     width: 100%;
-    max-width: 600px;
+    max-width: 300px;
 }
 
 .pic-container {
@@ -105,21 +115,23 @@ header {
 
 #activityPicture {
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
 }
 
 /* video */
 
 .video-container {
-    text-align: center;
-    padding: 1%;
     background-color: rgba(255, 255, 255, 0);
+    max-width: 300px;
+    max-height: 200px;
+    margin: 10px auto;
 }
 
 iframe {
-    max-width: 720px;
-    width: 100%;
     border: 5px, outset, #658ba1;
+    max-width: 300px;
+    max-height: 200px;
+    width: 100%;
 }
 
 /* footer */
@@ -131,7 +143,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding: 15px 0px;
+    padding: 10px 0px;
     border-top: solid 2px rgb(72, 71, 90);
 }
 
@@ -140,8 +152,8 @@ footer h2 {
 }
 
 .icon {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 /* navigation bar */
@@ -162,13 +174,14 @@ nav ul {
 
 nav li {
     float: left;
+    width: 33%;
 }
 
 nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 16px;
+    padding: 10px 10px;
     text-decoration: none;
 }
 
@@ -179,6 +192,7 @@ nav li a:hover:not(.active) {
 .active {
     background-color: #b61414;
 }
+
 
 /* my journey page */
 
