@@ -193,6 +193,86 @@ nav li a:hover:not(.active) {
     background-color: #b61414;
 }
 
+@media screen and (min-width: 361px) {
+    body {
+        font-size: 18px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+    
+    h1 {
+        font-size: 65px;
+    }
+    
+    h4 {
+        font-size: 30px;
+    }
+    
+    header {
+        padding: 40px 0px;
+        font-size: xx-large;
+    }
+    
+    #my-info-section {
+        display: flex;
+        width: 90%;
+    }
+    
+    .about-me-section {
+        margin: 10px;
+    }
+
+    .my-activity-section {
+        margin: 10px;
+    }
+    
+    #mypic {
+        max-width: 600px;
+    }
+    
+    .pic-container {
+        text-align: center;
+    }
+    
+    #activityPicture {
+        max-width: 500px;
+    }
+    
+    /* video */
+    
+    .video-container {
+        max-width: 720px;
+        max-height: 600px;
+    }
+    
+    iframe {
+        max-width: 720px;
+        max-height: 600px;
+    }
+    
+    /* footer */
+    
+    footer {
+        padding: 15px 0px;
+    }
+
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    /* navigation bar */
+    
+    nav li {
+        float: left;
+    }
+
+    nav li a {
+        padding: 10px 16px;
+    }
+}
 
 /* my journey page */
 
