@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+body {
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url('resources/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+
+p {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-size: large;
+    color: rgb(71, 47, 47);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    margin: 0%;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 800;
+    color: rgb(201, 30, 30);
+    margin: 0%;
+    padding-bottom: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 800;
+    color: rgb(58, 66, 65);
+    margin: 0%;
+    padding-bottom: 10px;
+}
+
+h4 {
+    color: #ff924a;
+    margin: 0%;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+div, section {
+    padding: 10px;
+    margin:auto;
+    width: 90%;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+header {
+    padding: 30px 0px;
+    background-color: rgba(6, 24, 80, 0.747);
+    font-family: "Rubik Bubbles", system-ui;
+    font-size: xx-large;
+}
+
+#my-info-section {
+    background-color: rgba(255, 255, 255, 0.308);
+    display: flex;
+    width: 90%;
+}
+
+.about-me-section {
+    border: dashed 3px rgb(188, 154, 216);
+    background-color:rgba(159, 201, 241, 0.685);
+    margin: 10px;
+    flex: 1;
+}
+
+#mypic {
+    width: 100%;
+    max-width: 600px;
+}
+
+.pic-container {
+    text-align: center;
+    padding: 0%;
+}
+
+.text-container {
+    padding: 0%;
+}
+
+#activityPicture {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* video */
+
+.video-container {
+    text-align: center;
+    padding: 1%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+iframe {
+    max-width: 720px;
+    width: 100%;
+    border: 5px, outset, #658ba1;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: rgba(40, 53, 35, 0.733);
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px 0px;
+    border-top: solid 2px rgb(72, 71, 90);
+}
+
+footer h2 {
+    color: white;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+/* navigation bar */
+
+nav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7092e0;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #6180c7c2;
+}
+
+.active {
+    background-color: #b61414;
+}
+
+/* my journey page */
+
+#four-year-journey {
+    text-align: center;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 90%;
+    max-width: 700px;
+    background-color: rgba(113, 145, 172, 0.164);
+    padding: 25px 0px;
+}
+
+#journey-picture {
+    width: 90%;
+    max-width: 700px;
+}
+
+#journey-goals {
+    width: 90%;
+}
+
+table {
+    border: dashed 5px rgb(201, 93, 93);
+    padding: 10px 50px;
+    margin-top: 20px;
+    text-align: left;
+    color: #28395f;
+    background-color: rgba(231, 246, 255, 0.918);
+    width: 90%;
+    max-width: 700px;
+}
+
+td {
+    padding: 0px 10px;
+}
+
+/* my future page */
+
+#my-future-plan {
+    background-color:rgba(159, 201, 241, 0.685);
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+#my-special-goal {
+    background-color:rgba(156, 219, 238, 0.685);
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+}
