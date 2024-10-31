@@ -274,6 +274,70 @@ nav li a:hover:not(.active) {
     }
 }
 
+@media screen and (min-width: 769px) {
+    p {
+        font-size: 20px;
+    }
+    
+    h1 {
+        font-size: 70px;
+    }
+    
+    h4 {
+        font-size: 40px;
+    }
+    
+    header {
+        padding: 40px 0px;
+    }
+    
+    #my-info-section {
+        width: 70%;
+    }
+    
+    #mypic {
+        max-width: 600px;
+    }
+    
+    .pic-container {
+        text-align: center;
+    }
+    
+    #activityPicture {
+        max-width: 500px;
+    }
+    
+    /* video */
+    
+    .video-container {
+        max-width: 800px;
+        max-height: 800px;
+    }
+    
+    iframe {
+        max-width: 800px;
+        max-height: 800px;
+    }
+    
+    /* footer */
+    
+    footer {
+        padding: 20px 0px;
+    }
+
+    .icon {
+        width: 45px;
+        height: 45px;
+    }
+    
+    /* navigation bar */
+    
+    nav li {
+        float: left;
+        width: 200px;
+    }
+}
+
 /* my journey page */
 
 #four-year-journey {
